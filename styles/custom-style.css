@@ -1,0 +1,25 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* General */
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+:root {
+    --red-color: #e6563b;
+    --orange-color: #eb9d3a;
+    --green-color: #7cb06c;
+    --turquoise-color: #00aba9;
+    --light-grey-color: #f0f0f0;
+    --grey-color: #e6e6e6;
+}
+
+.logo {
+    width: 6.56em;
+}
+
+.icon {
+    width: 1.125;
+}

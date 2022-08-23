@@ -7,3 +7,5 @@ Technologies used include
 - HTML 
 - CSS 
 - Bootstrap
+
+[Check it out!](https://greg-will-codeup-design.github.io/Codeup-Design/)

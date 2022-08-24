@@ -20,9 +20,18 @@ body {
     background-color: var(--light-grey-color);
 }
 
+h3 {
+    font-family: var(--primary-text);
+}
+
 .logo {
     width: 105px;
     height: 105px;
+}
+
+.last-img {
+    max-width: 75px;
+    max-height: 75px;
 }
 
 /* Circle Icons */

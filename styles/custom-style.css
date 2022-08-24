@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: var(--primary-text);
+    font-family: var(--secondary-text);
     background-color: var(--light-grey-color);
 }
 

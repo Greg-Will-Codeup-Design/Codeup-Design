@@ -28,6 +28,10 @@ body {
     color: var(--grey-color);
 }
 
+.page-title {
+    margin-right: 1em;
+}
+
 h1,
 h2,
 h3 {
@@ -35,8 +39,8 @@ h3 {
 }
 
 .logo {
-    width: 105px;
-    height: 105px;
+    width: 50px;
+    height: 50px;
 }
 
 .last-img {
@@ -44,7 +48,7 @@ h3 {
     max-height: 75px;
 }
 
-/* Circle Icons */
+/* Large Circle Icons */
 
 .circle {
     width: 105px;
@@ -70,4 +74,23 @@ h3 {
 
 .turquoise-bg {
     background-color: var(--turquoise-color)
+}
+
+<<<<<<< HEAD
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+=======
+/* Small Circle Icons */
+
+.small-circle {
+    font-family: var(--primary-text);
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+>>>>>>> 708156899fff6d12fb16789f9910f44b93108e9a
 }

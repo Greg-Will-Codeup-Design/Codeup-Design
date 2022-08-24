@@ -20,6 +20,16 @@ body {
     background-color: var(--light-grey-color);
 }
 
+.navbar-custom-bg {
+    background-color: var(--light-grey-color);
+}
+
+.border-color-gray {
+    color: var(--grey-color);
+}
+
+h1,
+h2,
 h3 {
     font-family: var(--primary-text);
 }

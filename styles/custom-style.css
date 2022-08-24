@@ -1,5 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 /* General */
 
@@ -10,11 +11,18 @@
     --turquoise-color: #00aba9;
     --light-grey-color: #f0f0f0;
     --grey-color: #e6e6e6;
+    --primary-text: 'Anton', sans-serif;
+    --secondary-text: 'Abel', sans-serif;
 }
 
 body {
-    font-family: 'Anton', sans-serif;
+    font-family: var(--primary-text);
     background-color: var(--light-grey-color);
+}
+
+.logo {
+    width: 105px;
+    height: 105px;
 }
 
 /* Circle Icons */

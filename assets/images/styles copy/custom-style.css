@@ -1,8 +1,8 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Google Font*/
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
 
-/* General */
+/* General*/
 
 :root {
     --red-color: #e6563b;
@@ -46,9 +46,11 @@ h3 {
 .last-img {
     max-width: 75px;
     max-height: 75px;
+    border-radius: 2.5px;
+    border: 3px #fff;
 }
 
-/* Large Circle Icons */
+ /*Large Circle Icons */
 
 .circle {
     width: 105px;
@@ -58,10 +60,12 @@ h3 {
     color: #fff;
     text-align: center;
     border: solid #fff 5px;
+
 }
 
 .red-bg {
     background-color: var(--red-color)
+
 }
 
 .orange-bg {
@@ -74,4 +78,22 @@ h3 {
 
 .turquoise-bg {
     background-color: var(--turquoise-color)
+}
+.small-circle {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    font-size: .5em;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    --primary-text: 'Anton', sans-serif;
+    position: relative;
+
+}
+
+
+.card-title {
+
 }

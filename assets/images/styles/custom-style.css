@@ -3,7 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
 
 /* General*/
-
+/* TODO: small circles need a larger yet tighter font and a deeper BOLD */
 :root {
     --red-color: #e6563b;
     --orange-color: #eb9d3a;
@@ -45,9 +45,10 @@ h3 {
 
 .last-img {
     max-width: 75px;
-    max-height: 75px;
+    max-height: 80px;
     border-radius: 2.5px;
     border: 3px #fff;
+    
 }
 
  /*Large Circle Icons */
@@ -96,4 +97,3 @@ h3 {
 
 .card-title {
 
-}
